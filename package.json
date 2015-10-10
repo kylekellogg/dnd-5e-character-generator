@@ -1,0 +1,34 @@
+{
+  "name": "dnd-5e-character-generator",
+  "version": "0.0.1",
+  "description": "Character generator for D&D 5e",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqow/dnd-5e-character-generator.git"
+  },
+  "keywords": [
+    "D&D",
+    "dungeons",
+    "dragons",
+    "character",
+    "generator"
+  ],
+  "author": "Kyle Kellogg",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/sqow/dnd-5e-character-generator/issues"
+  },
+  "homepage": "https://github.com/sqow/dnd-5e-character-generator#readme",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "connect": "^3.4.0",
+    "serve-static": "^1.10.0",
+    "standard": "^5.3.1"
+  },
+  "dependencies": {}
+}
