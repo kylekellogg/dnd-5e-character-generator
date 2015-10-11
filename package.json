@@ -4,8 +4,10 @@
   "description": "Character generator for D&D 5e",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard ./**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run lint && browserify js/src/main.js > js/bundle.js",
+    "start": "npm run build && node index.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,10 @@
     "serve-static": "^1.10.0",
     "standard": "^5.3.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "standard": {
+    "ignore": [
+      "js/bundle.js"
+    ]
+  }
 }

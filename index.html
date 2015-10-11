@@ -1,9 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>D&amp;D 5e Character Generator</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 </head>
 <body>
-  <p>Hiya!</p>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Choose a Race:</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <select name="race" class="form-control" id="race">
+          <optgroup label="Dwarf">
+            <option value="Hill Dwarf">Hill Dwarf</option>
+            <option value="Mountain Dwarf">Mountain Dwarf</option>
+          </optgroup>
+
+          <optgroup label="Elf">
+            <option value="High Elf">High Elf</option>
+            <option value="Wood Elf">Wood Elf</option>
+            <option value="Dark Elf (Drow)">Dark Elf (Drow)</option>
+          </optgroup>
+
+          <optgroup label="Halfling">
+            <option value="Lightfoot">Lightfoot</option>
+            <option value="Stout">Stout</option>
+          </optgroup>
+
+          <optgroup label="Human">
+            <option value="Calishite">Calishite</option>
+            <option value="Chondathan">Chondathan</option>
+            <option value="Damaran">Damaran</option>
+            <option value="Illuskan">Illuskan</option>
+            <option value="Mulan">Mulan</option>
+            <option value="Rashemi">Rashemi</option>
+            <option value="Shou">Shou</option>
+            <option value="Tethyrian">Tethyrian</option>
+            <option value="Turami">Turami</option>
+          </optgroup>
+
+          <optgroup label="Dragonborn">
+            <option value="Black">Black</option>
+            <option value="Blue">Blue</option>
+            <option value="Brass">Brass</option>
+            <option value="Bronze">Bronze</option>
+            <option value="Copper">Copper</option>
+            <option value="Gold">Gold</option>
+            <option value="Green">Hill Dwarf</option>
+            <option value="Red">Red</option>
+            <option value="Silver">Silver</option>
+            <option value="White">White</option>
+          </optgroup>
+
+          <optgroup label="Gnome">
+            <option value="Forest Gnome">Forest Gnome</option>
+            <option value="Rock Gnome">Rock Gnome</option>
+          </optgroup>
+
+          <option value="Half-Elf">Half-Elf</option>
+
+          <option value="Half-Orc">Half-Orc</option>
+
+          <option value="Tiefling">Tiefling</option>
+        </select>
+      </div>
+      <div class="col-xs-6">
+        <div class="col-xs-12">
+          <h2>Traits:</h2>
+        </div>
+        <div class="col-xs-12" id="race_traits">
+          &nbsp;
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/bundle.js" type="text/javascript" charset="utf-8" async defer></script>
+
 </body>
 </html>
