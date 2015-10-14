@@ -12,13 +12,68 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-        <h1>Choose a Race:</h1>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-xs-6">
-        <select name="race" class="form-control" id="race">
+        <div class="col-xs-12">
+          <h1>Roll some dice</h1>
+        </div>
+        <div class="col-xs-12">
+          <p class="form-control-static">You'll only get three tries at this, so good luck.</p>
+          <button type="button" id="dice-btn">Roll the Dice</button>
+        </div>
+        <div class="col-xs-12">&nbsp;</div>
+        <div class="col-xs-12">
+          <div class="col-xs-2"><label for="dice-1">Dice 1<input type="number" class="form-control" name="dice-1" id="dice-1" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-2">Dice 2<input type="number" class="form-control" name="dice-2" id="dice-2" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-3">Dice 3<input type="number" class="form-control" name="dice-3" id="dice-3" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-4">Dice 4<input type="number" class="form-control" name="dice-4" id="dice-4" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-5">Dice 5<input type="number" class="form-control" name="dice-5" id="dice-5" readonly></label></div>
+          <div class="col-xs-2"><label for="total-1">Total<input type="number" class="form-control" name="total-1" id="total-1" readonly></label></div>
+        </div>
+        <div class="col-xs-12">
+          <div class="col-xs-2"><label for="dice-6">Dice 6<input type="number" class="form-control" name="dice-6" id="dice-6" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-7">Dice 7<input type="number" class="form-control" name="dice-7" id="dice-7" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-8">Dice 8<input type="number" class="form-control" name="dice-8" id="dice-8" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-9">Dice 9<input type="number" class="form-control" name="dice-9" id="dice-9" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-10">Dice 10<input type="number" class="form-control" name="dice-10" id="dice-10" readonly></label></div>
+          <div class="col-xs-2"><label for="total-2">Total<input type="number" class="form-control" name="total-2" id="total-2" readonly></label></div>
+        </div>
+        <div class="col-xs-12">
+          <div class="col-xs-2"><label for="dice-11">Dice 11<input type="number" class="form-control" name="dice-11" id="dice-11" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-12">Dice 12<input type="number" class="form-control" name="dice-12" id="dice-12" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-13">Dice 13<input type="number" class="form-control" name="dice-13" id="dice-13" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-14">Dice 14<input type="number" class="form-control" name="dice-14" id="dice-14" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-15">Dice 15<input type="number" class="form-control" name="dice-15" id="dice-15" readonly></label></div>
+          <div class="col-xs-2"><label for="total-3">Total<input type="number" class="form-control" name="total-3" id="total-3" readonly></label></div>
+        </div>
+        <div class="col-xs-12">
+          <div class="col-xs-2"><label for="dice-16">Dice 16<input type="number" class="form-control" name="dice-16" id="dice-16" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-17">Dice 17<input type="number" class="form-control" name="dice-17" id="dice-17" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-18">Dice 18<input type="number" class="form-control" name="dice-18" id="dice-18" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-19">Dice 19<input type="number" class="form-control" name="dice-19" id="dice-19" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-20">Dice 20<input type="number" class="form-control" name="dice-20" id="dice-20" readonly></label></div>
+          <div class="col-xs-2"><label for="total-4">Total<input type="number" class="form-control" name="total-4" id="total-4" readonly></label></div>
+        </div>
+        <div class="col-xs-12">
+          <div class="col-xs-2"><label for="dice-21">Dice 21<input type="number" class="form-control" name="dice-21" id="dice-21" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-22">Dice 22<input type="number" class="form-control" name="dice-22" id="dice-22" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-23">Dice 23<input type="number" class="form-control" name="dice-23" id="dice-23" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-24">Dice 25<input type="number" class="form-control" name="dice-24" id="dice-24" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-25">Dice 25<input type="number" class="form-control" name="dice-25" id="dice-25" readonly></label></div>
+          <div class="col-xs-2"><label for="total-5">Total<input type="number" class="form-control" name="total-5" id="total-5" readonly></label></div>
+        </div>
+        <div class="col-xs-12">
+          <div class="col-xs-2"><label for="dice-26">Dice 26<input type="number" class="form-control" name="dice-26" id="dice-26" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-27">Dice 27<input type="number" class="form-control" name="dice-27" id="dice-27" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-28">Dice 28<input type="number" class="form-control" name="dice-28" id="dice-28" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-29">Dice 29<input type="number" class="form-control" name="dice-29" id="dice-29" readonly></label></div>
+          <div class="col-xs-2"><label for="dice-30">Dice 30<input type="number" class="form-control" name="dice-30" id="dice-30" readonly></label></div>
+          <div class="col-xs-2"><label for="total-6">Total<input type="number" class="form-control" name="total-6" id="total-6" readonly></label></div>
+        </div>
+        <div class="col-xs-12">
+          <h1>Choose a Race:</h1>
+        </div>
+        <div class="col-xs-12">
+          <select name="race" class="form-control" id="race">
           <optgroup label="Dwarf">
             <option value="Hill Dwarf">Hill Dwarf</option>
             <option value="Mountain Dwarf">Mountain Dwarf</option>
@@ -71,6 +126,7 @@
 
           <option value="Tiefling">Tiefling</option>
         </select>
+        </div>
       </div>
       <div class="col-xs-6">
         <div class="col-xs-12">

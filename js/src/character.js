@@ -40,7 +40,6 @@ module.exports = (function () {
       pp: 0
     }
     this.attacks = []
-    this.features = []
     this.personalityTraits = []
     this.ideals = []
     this.bonds = []
@@ -115,10 +114,16 @@ module.exports = (function () {
     this.size = 'Medium'
     this.speed = 30
     this.languages = ['Common']
+    this.features = []
   }
 
   Traits.prototype.addAbilityScoreIncrease = function (ability, value) {
     this.abilityScoreIncreases.push({ability:ability, value:value})
+    return this
+  }
+
+  Traits.prototype.addFeature = function (name, description) {
+    this.features.push({name:name, description:description})
     return this
   }
 
